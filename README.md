@@ -48,3 +48,8 @@ To obtain the pretrained model, run:
  ```
  
  on https://github.com/facebookresearch/UnsupervisedMT (NMT)
+
+# Generate Vocab
+```
+./generate_vocabulary.sh -s ../yue_100K.txt -t ../zh_100K.txt
+```
